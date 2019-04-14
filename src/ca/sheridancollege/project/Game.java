@@ -11,6 +11,7 @@ import java.util.ArrayList;
  * The class that models your game. You should create a more specific
  * child of this class and instantiate the methods given.
  * @author dancye, 2018
+ * @modified by: Hasan Khan, 04/13/19 & Ajoonepreet Matharu, 01/13/19
  */
 public abstract class Game 
 {
@@ -46,6 +47,28 @@ public abstract class Game
     {
         this.players = players;
     }
+    
+    public void newRound()
+    {
+        
+    }
+    
+    public void ComputerPlayer()
+    {
+        
+    }
+            
+    
+    public void turn()
+    {
+        
+    }
+    
+     public void Score()
+    {
+            
+    }
+            
     
     /**
      * Play the game. This might be one method or many method calls depending
